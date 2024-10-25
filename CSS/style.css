@@ -24,6 +24,9 @@ element{
     max-width: 382px;
     max-height: 215px;
 }
+.card-header{
+    font-size: 20px;
+}
 .header_container{
     background: 
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.0)),
@@ -61,7 +64,6 @@ element{
 }
 .header-slogan{
     text-align: center;
-    margin-top: 140px;
     font-family: Poppins;
     font-weight: 700;
     color: #f8c179;
@@ -111,6 +113,20 @@ main .About-us{
 }
 .intr{
     max-width: 30rem;
+}
+.Text-slogan-hover{
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Text-slogan-hover:hover{
+    border: solid 2px lightslategrey;
+    border-radius: 20px;
+    margin-right: 260px;
+    margin-left: 260px;
+    
+    background-color: rgb(207, 205, 226);
+    opacity: 90%;
 }
 .logining_h2{
     text-align: center;
